@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>tic-tac-toe</title>
+  <link rel="stylesheet" href="tic-tac-toe.css">
+</head>
+
+<body onload="load()" onkeypress="checkReload()">
+  <div class="heading">
+    <h1>TIC-TAC-TOE</h1>
+  </div>
+  <div class="game">
+    <div class="level">
+      <h3>Select Difficulty</h3>
+      <form id="difficulty">
+        <input type="radio" name="option" id="Easy" checked> Easy<br>
+        <input type="radio" name="option" id="Medium"> Medium<br>
+        <input type="radio" name="option" id="Hard"> Hard (Beta)
+      </form>
+      <div class="reset">
+        <button type="button" class="new_game" onclick="load()">RESET GAME</button>
+      </div>
+    </div>
+    <div class="board">
+      <div class="gameBoard">
+        <table id="gameBoard">
+          <tr>
+            <td>
+              <button class="button" id="1"></button>
+            </td>
+            <td>
+              <button class="button" id="2"></button>
+            </td>
+            <td>
+              <button class="button" id="3"></button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button class="button" id="4"></button>
+            </td>
+            <td>
+              <button class="button" id="5"></button>
+            </td>
+            <td>
+              <button class="button" id="6"></button>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button class="button" id="7"></button>
+            </td>
+            <td>
+              <button class="button" id="8"></button>
+            </td>
+            <td>
+              <button class="button" id="9"></button>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="showResult">
+        <h3>PLAYER WON</h3>
+          <h5 id="player">0 Times</h5>
+          <br><br>
+        <h3>COMPUTER WON</h3>
+          <h5 id="ai">0 Times</h5>
+      </div>
+    </div>
+  </div>
+  <div class="result">
+    <h3 id="gameResult"></h3>
+  </div>
+</body>
+<script src="logic.js" charset="utf-8"></script>
+</html>

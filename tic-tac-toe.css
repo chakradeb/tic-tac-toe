@@ -1,0 +1,162 @@
+body {
+  background-color: #6699ff;
+  margin: 0px;
+}
+
+.heading {
+  background-color: #006699;
+  height: 110px;
+}
+
+.game {
+  height: 600px;
+  margin-top: 70px;
+}
+
+h1 {
+  margin: 0px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  text-align: center;
+  color: white;
+  font-family: arial;
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 70px;
+  text-shadow: 8px 8px black;
+}
+
+.level {
+  float: left;
+  background-color: #ffd24d;
+  height: 400px;
+  width: 300px;
+  font-family: arial;
+  border: 8px solid black;
+  margin-left: 15px;
+  padding: 70px;
+  font-size: 30px;
+}
+
+.reset {
+  padding-left: 70px;
+  height: 50px;
+}
+
+.new_game {
+  height: 50px;
+  width: 150px;
+  background-color: white;
+  color: black;
+  border: 2px solid #47D147;
+  font-size: 18px;
+}
+
+.new_game:hover {
+  background-color: #47D147;
+  color: white;
+}
+
+
+.board {
+  float: right;
+  height: 550px;
+  width: 1100px;
+}
+
+.gameBoard {
+  float: left;
+}
+
+.showResult {
+  float: right;
+  height: 470px;
+  width: 430px;
+  background-color: #ffd24d;
+  font-family: arial;
+  border: 8px solid black;
+  margin-right: 15px;
+  padding-top: 70px;
+  font-size: 30px;
+}
+
+h5 {
+  text-align: center;
+}
+
+input {
+  height: 30px;
+  width: 30px;
+  margin: 0px;
+  margin-bottom: 80px;
+  font-size: 20px;
+}
+
+h3 {
+  text-align: center;
+  font-family: arial;
+  margin: 15px;
+}
+
+#difficulty{
+  margin: 10px;
+  height: 280px;
+  padding-left: 60px;
+}
+
+input {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+table {
+  margin: 50px;
+  border-spacing: 5px;
+}
+
+.button {
+  height: 140px;
+  width: 140px;
+  background-color: white;
+  color: black;
+  border: 2px solid #47D147;
+  font-size: 60px;
+}
+
+.result{
+  clear: both;
+  float: none;
+  padding-bottom: 20px;
+}
+
+#gameResult{
+  font-size: 60px;
+  font-family: cursive;
+  text-align: center;
+  color: #6600cc;
+}
+
+.invalid {
+  background-image: url(warning.gif);
+  height: 48px;
+  width: 48px;
+  padding-right: 10px;
+  display : inline-block;
+  background-repeat: no-repeat;
+  background-size: 48px 48px;
+}
+
+.win{
+  background-image: url(cup.gif);
+  height: 59px;
+  width: 62px;
+  padding-right: 10px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: 70px 64px;
+}
+
+.button:hover {
+  background-color: #47D147;
+  color: white;
+}
